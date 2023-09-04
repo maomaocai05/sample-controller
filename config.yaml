@@ -1,0 +1,9 @@
+slb:
+  vswitchs: vsw-kz634uedfgb6ipbg9romk
+  security_group: sg-kz601iibdcmg6kug1ebj
+  region_id: cn-hangzhou-kfcsy-d01
+  access_key_id: LxHDQ6h524qCEIHf
+  access_key_secret: 2Ue1pJwWjH4FhUMHnmOeJaSSxiacV6
+  slb_endpoint: slb-vpc.res.dc-tst-zj96596.com
+  vpc_endpoint: vpc-internal.cn-hangzhou-kfcsy-d01.res.dc-tst-zj96596.com
+  zone-id: cn-hangzhou-kfcsy-am12001-a

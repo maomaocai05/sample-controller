@@ -2,17 +2,34 @@
 
 module k8s.io/sample-controller
 
-go 1.20
+go 1.19
 
 require (
 	k8s.io/api v0.0.0-20230810042731-2f6eec10c476
 	k8s.io/apimachinery v0.0.0-20230815235016-14436eb53afd
-	k8s.io/client-go v0.0.0-20230816000758-856e847bb7cb
+	k8s.io/client-go v1.21.1
 	k8s.io/code-generator v0.0.0-20230815234323-164b07cd93ea
 	k8s.io/klog/v2 v2.100.1
+
 )
 
 require (
+	github.com/fsnotify/fsnotify v1.6.0 // indirect
+	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
+	github.com/magiconair/properties v1.8.7 // indirect
+	github.com/mitchellh/mapstructure v1.5.0 // indirect
+	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
+	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
+	github.com/spf13/afero v1.9.5 // indirect
+	github.com/spf13/cast v1.5.1 // indirect
+	github.com/spf13/jwalterweatherman v1.1.0 // indirect
+	github.com/subosito/gotenv v1.4.2 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
+)
+
+require (
+	github.com/aliyun/alibaba-cloud-sdk-go v1.62.528
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/evanphx/json-patch v5.6.0+incompatible // indirect
@@ -36,6 +53,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/spf13/viper v1.16.0
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.13.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
